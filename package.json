@@ -10,20 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/badass_toast/beer-bot.git"
   },
-  "keywords": [
-    "slackbot",
-    "bot",
-    "slack"
-  ],
-  "author": "",
+  "author": "Matteo Piatti",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/beepboophq/node-slack-bot/issues"
-  },
-  "homepage": "https://github.com/beepboophq/node-slack-bot#readme",
   "dependencies": {
-    "beepboop-botkit": "^1.4.1",
     "botkit": "^0.5.5",
+    "brewerydb-node": "0.0.1",
     "express": "^4.14.0",
     "request": "^2.79.0"
   },
