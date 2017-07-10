@@ -1,0 +1,33 @@
+{
+  "name": "movie-bot",
+  "version": "1.0.0",
+  "description": "A movie bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node beer-bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badass_toast/beer-bot.git"
+  },
+  "keywords": [
+    "slackbot",
+    "bot",
+    "slack"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beepboophq/node-slack-bot/issues"
+  },
+  "homepage": "https://github.com/beepboophq/node-slack-bot#readme",
+  "dependencies": {
+    "beepboop-botkit": "^1.4.1",
+    "botkit": "^0.5.5",
+    "express": "^4.14.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.1"
+  }
+}
