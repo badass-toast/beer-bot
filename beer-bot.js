@@ -7,7 +7,7 @@ if (!process.env.Client_ID || !process.env.Client_Secret || !process.env.Verific
 }
 
 var controller = Botkit.slackbot({
-  json_file_store: './db_slackbutton_slashcommand/',
+  json_file_store: './tmp/db_slackbutton_slashcommand/',
 }).configureSlackApp({
   clientId: process.env.Client_ID,
   clientSecret: process.env.Client_Secret,
