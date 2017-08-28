@@ -11,7 +11,8 @@
     "url": "git+https://github.com/badass_toast/beer-bot.git"
   },
   "now": {
-    "name": "beer-bot"
+    "name": "beer-bot",
+    "alias": "beer.matteobot.com"
   },
   "author": "Matteo Piatti",
   "license": "MIT",
